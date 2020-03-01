@@ -37,31 +37,29 @@ def stressedmovies():
     display_info('stressed')
 
 
-btnHappy = Button(window, text='Happy', fg='black', bg='#FFD700', command=happymovie, height=1, width=8)
-btnHappy.place(x=345, y=100)
+btnHappy = Button(window, text='Happy', fg='black', bg='#f2f077', command=happymovie, height=1, width=8)
+btnHappy.place(x=195, y=120)
 
-btnSad = Button(window, text='Sad', fg='black', bg='#5F7C92', command=sadmovie, height=1, width=8)
-btnSad.place(x=430, y=100)
+btnSad = Button(window, text='Sad', fg='black', bg='#8692b8', command=sadmovie, height=1, width=8)
+btnSad.place(x=280, y=120)
 
-btnAngry = Button(window, text='Angry', fg='black', bg='#AB2D2D', command=angrymovie, height=1, width=8)
-btnAngry.place(x=510, y=100)
+btnAngry = Button(window, text='Angry', fg='black', bg='#ad4040', command=angrymovie, height=1, width=8)
+btnAngry.place(x=360, y=120)
 
-btnStressed = Button(window, text='Stressed', fg='black', bg='#874894', command=stressedmovies, height=1, width=8)
-btnStressed.place(x=595, y=100)
+btnStressed = Button(window, text='Stressed', fg='black', bg='#b059ba', command=stressedmovies, height=1, width=8)
+btnStressed.place(x=445, y=120)
 
-btnExit = Button(window, text='Exit Page', fg='black', bg='grey', command=closewindow, height=1, width=8)
-btnExit.place(x=470, y=250)
+btnExit = Button(window, text='Exit Page', fg='black', bg='#bababa', command=closewindow, height=1, width=8)
+btnExit.place(x=320, y=280)
 
-lbl = Label(window, text='Click on your current mood.', fg='black', font=("Times New Roman", 16))
-lbl.place(x=380, y=50)
+lbl = Label(window, text='Click on Your Current Mood', fg='black', bg='#d2f7f4', font=("Calibri", 20))
+lbl.place(x=203, y=50)
 
-# txtfield = Entry(window, text='This is Entry Widget', bd=5)
-# txtfield.place(x=225, y=150)
-
-movie_text = Text(window, height=4, width=65)
-movie_text.place(x=240, y=160)
+movie_text = Text(window, height=4, width=65, bg='#d2f7f4')
+movie_text.place(x=90, y=180)
 movie_text.config(state=DISABLED)
 
-window.title('Hello Python')
-window.geometry("1050x300+25+25")
+window.title('Hearts In Motion')
+window.geometry("700x380+25+25")
+window.configure(bg='#d2f7f4')
 window.mainloop()
