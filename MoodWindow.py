@@ -9,6 +9,10 @@ def displayinfo():
     messagebox.showinfo('Information for mood', 'Image; Song; Quote')
 
 
+def closewindow():
+    exit()
+    
+    
 btnHappy = Button(window, text='Happy', fg='black', bg='#FFD700', command=displayinfo)
 btnHappy.place(x=180, y=100)
 
@@ -20,6 +24,9 @@ btnAngry.place(x=300, y=100)
 
 btnStressed = Button(window, text='Stressed', fg='black', bg='#874894', command=displayinfo)
 btnStressed.place(x=365, y=100)
+
+btnExit = Button(window, text='Exit Page', fg='black', bg='grey', command=closewindow)
+btnExit.place(x=275, y=150)
 
 lbl = Label(window, text='Click on your current mood.', fg='black', font=("Times New Roman", 16))
 lbl.place(x=180, y=50)
