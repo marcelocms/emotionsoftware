@@ -9,4 +9,4 @@ the influence of such emotions.
 The program reads a specific youtube playlist and retrieves a random video/song from that playlist and displays it to the user as a 
 suggestion for them to listen to. It also reads from an array of gathered films and indicates the title for the user to look into.
 
-Note: Look at FINAL PROJET.py for the finished version of our program
+Note: Look at FINAL PROJECT.py for the finished version of our program
