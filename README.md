@@ -1,4 +1,4 @@
-# emotionsoftware
+# Hearts in Motion: a program that changes just as we do
 
 This program was created with the intention of helping those struggling with emotional issues.
 Many individuals face emotional frustractions that vary from day to day, and humans often attempt to seek refuge from that strife.
